@@ -1,11 +1,11 @@
-# Hello bookdown 
+# What is the index.html file?
 
-All chapters start with a first-level heading followed by your chapter title, like the line above. There should be only one first-level heading (`#`) per .Rmd file.
+The index.html file is the backbone of your webpage, it is the home screen and the center where all things seem to render from. It's also not that complicated, it's quite similar to any other .html file you will find on your soon to be webpage, but the name acts like a default setting and points to where your browser should look in the folder when rendering your page. 
 
-## A section
+## What do I know?
 
-All chapter sections start with a second-level (`##`) or higher heading followed by your section title, like the sections above and below here. You can have as many as you want within a chapter.
+I know how to analyze environmental data, and how to write some software in a few different langues, but I have never done web development before, or written an RBookdown file. 
 
-### An unnumbered section {-}
+### My goal {-}
 
-Chapters and sections are numbered by default. To un-number a heading, add a `{.unnumbered}` or the shorter `{-}` at the end of the heading, like in this section.
+is to use this section of the website to take notes, and to practice writing in a new style. And by the end of it, hopefully I will have a few new skills, 

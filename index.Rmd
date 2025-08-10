@@ -1,6 +1,6 @@
 --- 
-title: "A Minimal Book Example"
-author: "John Doe"
+title: "A Minimal HTML Example"
+author: "Catrina Nowakowski"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
@@ -15,27 +15,21 @@ link-citations: yes
 github-repo: rstudio/bookdown-demo
 ---
 
-# About
+# Learning HTML
 
-This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports; for example, a math equation $a^2 + b^2 = c^2$.
+## What is the index.html file?
 
-## Usage 
+The index.html file is the backbone of your webpage, it is the home screen and the center where all things seem to render from. It's also not that complicated, it's quite similar to any other .html file you will find on your soon to be webpage, but the name acts like a default setting and points to where your browser should look in the folder when rendering your page. 
 
-Each **bookdown** chapter is an .Rmd file, and each .Rmd file can contain one (and only one) chapter. A chapter *must* start with a first-level heading: `# A good chapter`, and can contain one (and only one) first-level heading.
+## What do I know?
 
-Use second-level and higher headings within chapters like: `## A short section` or `### An even shorter section`.
+I know how to analyze environmental data, and how to write some software in a few different langues, but I have never done web development before, or written an RBookdown file. 
 
-The `index.Rmd` file is required, and is also your first book chapter. It will be the homepage when you render the book.
+### My goal {-}
 
-## Render book
+is to use this section of the website to take notes, and to practice writing in a new style. And by the end of it, hopefully I will have a few new skills, 
 
-You can render the HTML version of this example book without changing anything:
 
-1. Find the **Build** pane in the RStudio IDE, and
-
-1. Click on **Build Book**, then select your output format, or select "All formats" if you'd like to use multiple formats from the same book source files.
-
-Or build the book from the R console:
 
 ```{r, eval=FALSE}
 bookdown::render_book()
